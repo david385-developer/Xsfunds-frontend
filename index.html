@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XS Funds</title>
+    <meta name="description" content="funds"/>
+    <meta name="robots" content="index,follow"/>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="./assets/logo.jpeg" alt="Company Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="content">
+            <h2>Some Content</h2>
+            <p>This is a placeholder for your main content.</p>
+        </section>
+
+    
+        <section id="contact" class="form-section">
+            <h2>Contact Form</h2>
+            <form id="contactForm" novalidate>
+                <div class="form-control">
+                    <input type="text" id="name" placeholder="Name" required>
+                    <small></small>
+                </div>
+                <div class="form-control">
+                    <input type="email" id="email" placeholder="Email" required>
+                    <small></small>
+                </div>
+                <div class="form-control">
+                    <div class="phone-group">
+                        <select id="countryCode" disabled>
+                            <option value="+91" selected>🇮🇳 +91</option>
+                        </select>
+                        <input type="tel" id="phone" placeholder="10-digit Indian Mobile Number" required maxlength="10">
+                    </div>
+                    <small></small>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+     
+        <div id="loader-overlay">
+            <div class="loader">Investments Loading..</div>
+        </div>
+        
+        
+        
+        <section id="about" class="about">
+            <h2>What We Are Doing</h2>
+            <p>Explain your activities or services here.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We provide services that help people grow and connect. Our goal is to deliver value through
+                    technology.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>📍 Address: Near Palnadu Busstand, Narasaraopet(522601)</p>
+                <p>📞 Phone: +91 6300228212</p>
+                <p>✉️ Email: info@example.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 XS Funds. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

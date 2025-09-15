@@ -218,7 +218,10 @@ input:focus { border-color: var(--violet); outline: none; box-shadow: 0 0 0 3px 
   display: flex;
   justify-content: center;
 }
-
+#no-underline {
+  text-decoration: none;
+  color: inherit;
+}
 #contact-form {
   background: #fff;
   padding: 2rem 2.5rem;
@@ -341,13 +344,7 @@ input:focus { border-color: var(--violet); outline: none; box-shadow: 0 0 0 3px 
     text-align: center;
   }
 }
-.text-content{
-    margin-bottom: 2rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 
 @keyframes fadeInUp {
   to {
